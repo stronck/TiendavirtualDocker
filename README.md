@@ -2,17 +2,27 @@
 
 Sistema tienda virtual con Java
 ---
-Hola! Puedes ver la App OriginalFragance en tu pc o celular desde tu navegador en **[Play with Docker](https://labs.play-with-docker.com/)** (PWD), una plataforma gratuita para ejecutar Docker en la nube.  
+Hola! Puedes ver la App OriginalFragance en local con docker
+### 1️⃣instala docker en tu pc, realiza login
+### 2️⃣descargas de github la app con .zip, descomprimes, abres git bash desde la carpeta donde estan los archivos de la app, e ingresas este comando: 
+git clone https://github.com/stronck/TiendavirtualDocker.git
+cd TiendavirtualDocker
+git pull
+docker-compose down -v
+docker-compose up --build -d
+### 3️⃣y en tu navegador favorito abrir este link e interactuar con la app=    http://localhost:8080/
+
+Tambien puedes ver la App OriginalFragance en tu pc o celular desde tu navegador en **[Play with Docker](https://labs.play-with-docker.com/)** (PWD), una plataforma gratuita para ejecutar Docker en la nube.
 ### 1️⃣ Accede a PWD  
 🔗 [**Abrir Play with Docker**](https://labs.play-with-docker.com/)  
 ### 2️⃣ Registrate iniciar sesion, dar clic en **"Start"** y luego en **"Add New Instance"**, en la terminal de (PWD) ingresa este comando:
 git clone https://github.com/stronck/TiendavirtualDocker.git
-cd tiendavirtual
+cd TiendavirtualDocker
 git pull
+docker-compose down -v
 docker-compose up --build -d
 ### 3️⃣ dale clic en 8080 te enviara a ver el sitio web OriginalFragance y listo.
-### 4️⃣ Tambien puedes clonar la App desde github, a docker local en tu pc 
-
+Cualquier duda o inquietud no dudes en contactarme.
 
 ##🚀Descripcion de la App OriginalFragance
 
